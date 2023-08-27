@@ -98,3 +98,105 @@ i am studying in first grade
 # 45tyu --> this is wrong
 # 4. spaces are not allowed in the variable
 # example: nu m --> this is wrong
+
+# num = 34
+# print(type(num))
+# print(num)
+
+# num = float(num)
+# print(num)
+# print(type(num))
+
+# num = 4.5
+# print(type(num))
+# print(num)
+
+# num = int(num)
+# print(type(num))
+# print(num)
+
+# num = '34'
+# print(type(num))
+# print(num)
+
+# num = int(num)
+# print(type(num))
+# print(num)
+
+# num = 34
+# print(type(num))
+# print(num)
+
+# num = str(num)
+# print(type(num))
+# print(num)
+
+# we cannot convert a string containing alphabets into an integer
+# we can convert a string containing only numbers into an integer
+
+# name = "Megan"
+# print(type(name))
+# print(name)
+
+# name = int(name)
+# print(type(name))
+# print(name)
+
+# case-sensitivity = Lowercase and uppercase are different names
+
+# name = "Megan"
+
+# Name = "Megan"
+
+# NAME= "Megan"
+
+# nAme = "Megan"
+
+# a = 1
+# b = 2
+# c = 4
+
+# we can assign valued to multiple variables in a single line like this:
+# a, b, c, = 1, 2, 4
+
+# print(a)
+# print(b)
+# print(c)
+
+# a = b = c = 1
+# print(a)
+# print(b)
+# print(c)
+
+# we can print multiple variables in a single line using commas (,)
+# a = 3
+# b = 4
+# c = 7
+
+# print(a, b, c)
+
+# a = 3 
+# b = 4
+# c = 7
+
+# print(a + b + c)
+
+# num = 34
+# name = "Megan"
+
+# it will give error
+# we cannot add a string with a number
+# print(num + name)
+
+# print(name + num)
+
+# strings
+
+mystr = "Megan"
+print(mystr[2])
+
+print(mystr[1])
+
+print(mystr[0])
+
+print(print[3])
