@@ -192,11 +192,35 @@ i am studying in first grade
 
 # strings
 
-mystr = "Megan"
-print(mystr[2])
+# mystr = "Megan"
+# print(mystr[2])
 
-print(mystr[1])
+# print(mystr[1])
 
-print(mystr[0])
+# print(mystr[0])
 
-print(print[3])
+# print(print[3])
+
+# mystr = "I am having a big task"
+
+# print(mystr[5])
+# print(mystr[11])
+
+# we cannot change/update a string's value
+# mystr[5] = 'p'
+
+mystr = "I am having a big task"
+# #big
+# print(mystr[14:17])
+
+# havi
+# print(mystr[5:9])
+
+# g a big
+# print(mystr[10:17])
+
+# m hav
+# print(mystr[3:8])
+
+#avin
+# print(mystr[6:10])
