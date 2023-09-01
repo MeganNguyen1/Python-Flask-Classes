@@ -224,3 +224,17 @@ mystr = "I am having a big task"
 
 #avin
 # print(mystr[6:10])
+
+# print(mystr[2:5])
+
+# print(mystr[18:])
+
+# print(mystr[0:11])
+
+# if you are not putting any start index, it will be starting from 0 index
+# if you are not putting any end index, it will go up to the last element
+# print(mystr[:])
+
+# print(mystr[0:5:2])
+# print(mystr[2:9:2])
+print(mystr[3:6:2])
