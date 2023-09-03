@@ -259,4 +259,30 @@ mystr = "I am having a big task"
 
 # print(mystr[-6:-1:2])
 
-print(mystr[-4:0:-4])
+# print(mystr[-4:0:-4])
+
+# print(mystr[-9:1:-3])
+
+# print(mystr[-7:15:-1])
+
+# print(mystr[7:-14])
+
+
+# conditional statements
+
+# if 3 == 4:
+#     print("Equal")
+# elif (3 > 4):
+#     print("greater")
+# else:
+#     print("less")
+
+# x = 4
+# if x == 4:
+#     print("equal")
+# elif x >= 4:
+#     print("greater or equal")
+# elif x > 4:
+#     print("greater")
+# else:
+#     print("default")
