@@ -286,3 +286,38 @@ mystr = "I am having a big task"
 #     print("greater")
 # else:
 #     print("default")
+
+# if 3 > 4 or 5 > 4:
+#     print("one")
+# elif 8 > 4 and 6 > 4:
+#     print("two")
+# else:
+#     print("none")
+
+# if 3 > 4 or 5 < 4:
+#     print("one")
+# elif 8 > 4 and 6 > 4:
+#     print("two")
+# else:
+#     print("none")
+
+# if not(3 < 4):
+#     print("one")
+# elif 4 > 3:
+#     print("two")
+# else:
+#     print("none")
+
+# if not(4 > 6) and not(8 > 5):
+#     print("one")
+# elif 4 > 5 or not(5 == 5):
+#     print("two")
+# else:
+#     print("none")
+
+if 4 > 6 and not(8 > 5):
+    print("one")
+elif not(4 > 5) or not(5 == 5):
+    print("two")
+else:
+    print("none")
