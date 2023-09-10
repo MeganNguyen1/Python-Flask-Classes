@@ -363,24 +363,75 @@ mystr = "I am having a big task"
 # else:
 #     print("default")
 
-x = 12
-y = 3
-z = 11
-if (x == 2 and x < 3):
-     print(x)
-if x != 5:
-    print("whatever")
-if x != 5 and y >= 5 and z <= 13:
-     print("its gonna happen")
-if z != 0 or x == 2:
-     print("you say")
-if (not(y < 10)):
-    print("you say")
-elif (x < 10 or x < 5):
-     print("okkkkkkk")
-elif (y < 10 or y <= 0):
-    print("pikachu")
-elif(z == 0 or y ==5):
-    print(pikaboo)
-else:
-    print("Default value")
+# x = 12
+# y = 3
+# z = 11
+# if (x == 2 and x < 3):
+#      print(x)
+# if x != 5:
+#     print("whatever")
+# if x != 5 and y >= 5 and z <= 13:
+#      print("its gonna happen")
+# if z != 0 or x == 2:
+#      print("you say")
+# if (not(y < 10)):
+#     print("you say")
+# elif (x < 10 or x < 5):
+#      print("okkkkkkk")
+# elif (y < 10 or y <= 0):
+#     print("pikachu")
+# elif(z == 0 or y ==5):
+#     print(pikaboo)
+# else:
+#     print("Default value")
+
+# nested if/else
+# if 3 > 4 and 5 < 3:
+#     if 4 > 0 or 5 == 8:
+#         print("Nested")
+
+# if 3 < 4 and 5 > 3:
+#      if 4 > 0 or 5 == 8:
+#          print("Nested")
+
+# if 3 < 4 and 5 > 3:
+#       if 4 > 0 or 5 == 8:
+#           print("Nested")
+#       if 7 >= 6 or 3 != 0:
+#         print("nested again")
+#       elif (5 - 4) <= 0:
+#         print("23")
+#       else:
+#         print("nested default")
+# else:
+#     ("outside")
+
+# Loops
+# for loops
+
+# for i in range(1, 11):
+#     print(i)
+
+# printing multiplication table of 10
+# for i in range(1, 11):
+#     print(i*10)
+
+# even numbers from 1 to 10
+# for i in range(1, 11):
+#     if i % 2 == 0:
+#         print(i)
+
+# odd numbers from 1 to 10
+# for i in range(1, 11):
+#     if i % 2 == 1:
+#         print(i)
+
+# odd numbers from 30 to 60
+# for i in range(30, 61):
+#     if i % 3 == 1:
+#         print(i)
+
+# even numbers from 30 to 60
+# for i in range(30, 61):
+#     if 1 % 2 == 0:
+#         print(i)
