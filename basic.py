@@ -414,7 +414,7 @@ mystr = "I am having a big task"
 
 # printing multiplication table of 10
 # for i in range(1, 11):
-#     print(i*10)
+#      print(i*10)
 
 # even numbers from 1 to 10
 # for i in range(1, 11):
@@ -458,26 +458,40 @@ mystr = "I am having a big task"
 # sum of all numbers from 1 to 10
 # sum = 0
 # for i in range(1, 11):
-#     sum += i
+#      sum += i
+
 # print(sum)
 
 # multiplication of all numbers from 1 to 10
 # mul = 1
 # for i in range(1, 11):
-#     mul *- i
+#        mul *- i
 
 # print(mul)
 
 # division of all numbers from 1 to 10
-div = 1
-for i in range(1, 11):
-    div /= i
+# div = 1
+# for i in range(1, 11):
+#       div /= i
 
-print(div)
+# print(div)
 
-# subtraction of all numbers from 1 to 10
-sub = 0
-for i in range(1, 11):
-    sub -= i
+# # subtraction of all numbers from 1 to 10
+# sub = 0
+# for i in range(1, 11):
+#     sub -= i
 
-print(sub)
+# print(sub)
+
+# for i in range(1, 11):
+#      print(i*7)
+
+# for i in range(1, 46):
+#     if i % 2 == 0:
+#         print(i)
+
+sum = 0
+for i in range(20, 31):
+    sum += i
+
+print(sum)
