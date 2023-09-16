@@ -490,8 +490,27 @@ mystr = "I am having a big task"
 #     if i % 2 == 0:
 #         print(i)
 
-sum = 0
-for i in range(20, 31):
-    sum += i
+# sum = 0
+# for i in range(20, 31):
+#     sum += i
 
-print(sum)
+# print(sum)
+
+mystring = "Megan studies in first grade"
+# print(mystring[2:13])
+
+# print(mystring[-26:-15])
+
+# print(mystring[2:-15])
+
+# print(mystring[-26:13])
+
+# print(mystring[9:22:3])
+ 
+# print(mystring[-19:-6:3])
+
+# print(mystring[9:-6:3])
+
+# print(mystring[-19:22:3])
+
+print(mystring[-5:-14:-2])
