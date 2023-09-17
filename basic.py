@@ -513,4 +513,19 @@ mystring = "Megan studies in first grade"
 
 # print(mystring[-19:22:3])
 
-print(mystring[-5:-14:-2])
+# print(mystring[-5:-14:-2])
+
+mystr = "Football is a very famous game"
+# print(mystr[2:-12:2])
+
+# print(mystr[15:30:2])
+
+# print(mystr[-15::2])
+
+# print(mystr[15::2])
+
+# print(mystr[-15:30:2])
+
+# print(mystr[-7:-26:-3])
+
+print(mystr[23:4:-3])
