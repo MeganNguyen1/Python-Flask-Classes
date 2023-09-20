@@ -528,4 +528,46 @@ mystr = "Football is a very famous game"
 
 # print(mystr[-7:-26:-3])
 
-print(mystr[23:4:-3])
+# print(mystr[23:4:-3])
+
+# lists
+
+# print(mylist[2])
+
+# mylist[4] = False
+
+# print(mylist[4])
+
+# 90.5 megan
+# 1 megan True
+# 'd' True
+# 90.5 True
+# 1 'd'
+
+# list slicing
+# print(mylist[2:5])
+
+# print(mylist[1:3])
+
+# print(mylist[0:5:2])
+
+# print(mylist[3:5])
+
+# print(mylist[1:5:3])
+
+# print(mylist[0:4:3])
+
+mylist = [1, 90.5, "Megan", 'd', True]
+
+# 1. True megan 1
+# 2. True 'd' [megan]
+# 3. True 90.5
+# 4. 90.5 1
+
+print(mylist[-1:-6:-2])
+
+print(mylist[-1:-4:-1])
+
+print(mylist[-1:-5:-3])
+
+print(mylist[])
