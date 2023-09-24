@@ -639,11 +639,139 @@ import random as r
 
 # choice function also works for strings
 
-element = r.uniform(5, 17)
+# element = r.uniform(5, 17)
 
-print(element)
+# print(element)
 
 # 1. uniform function gives a random floating point number in a given range
 # 2. uniform function doesn't include end index
 
-print(dir(m))
+# print(dir(m))
+
+import datetime as dt
+
+# x = dt.datetime.now()
+# print(x.year)
+
+# gives current date and time
+
+# x = dt.datetime(2013, 12, 20)
+# print(x)
+
+# print(x.day)
+# print(x.month)
+
+# list functions
+
+mylist = [4, 4.5, 9, 7.4, 8, 6.6, 45]
+# print(mylist)
+
+# mylist.append(90)
+
+# print(mylist)
+
+# mylist.append(54)
+# print(mylist)
+
+# mylist.append(69)
+# print(mylist)
+
+# insert function adds an element at a particular index
+
+# mylist.insert(3, 4.4)
+# print(mylist)
+
+# mylist.insert(4, 9.6)
+# print(mylist)
+
+# append function adds the element at the end
+
+# mylist[3] = 3.3
+# print(mylist)
+
+# mylist[5] = 9.4
+# print(mylist)
+
+# mylist[4] = 4.3
+# print(mylist)
+
+# mylist1 = [1, 2, 3, 4, 5]
+# mylist2 = [6, 7, 8, 10, 12]
+
+# mylist1.extend(mylist2)
+# print(mylist1)
+
+# mylist1 = [10, 20, 30, 40, 50]
+# mylist2 = [60, 70, 80, 90, 100]
+
+# mylist1.extend(mylist2)
+# print(mylist1)
+
+# extend function adds anotehr list into a list
+
+mylist = [13, 4.3, 9, 7.3, 10, 12]
+
+# mylist.remove(7.3)
+# print(mylist)
+
+# mylist.remove(12)
+# print(mylist)
+
+# remove function deletes a particular element which is provided
+
+# mylist.pop(4)
+# print(mylist)
+
+# mylist.pop(3)
+# print(mylist)
+
+# pop function deletes an element whose indes is provided
+
+# mylist.pop()
+# print(mylist)
+
+# pop function deletes the last element if no index is provided
+
+# mylist = [10, 3.5, 6, 7.9, 18]
+
+# mylist.sort()
+# print(mylist)
+
+# mylist = [75, "Im", 5, 4.7, "hello"]
+
+# mylist.sort()
+# print(mylist)
+
+# either all the numbers or all the alphabets
+
+# mylist = ["hi", "iam", "the", "tiny", "animal"]
+
+# mylist.sort()
+# print(mylist)
+
+# mylist = ["Hello", "thIs", "is", "mY", "HoUsE"]
+
+# mylist.sort()
+# print(mylist)
+
+# uppercase alphabets have more priorty than lowercase alphabets while sorting
+
+# mylist = [6, 3, 12, 4.9, 7,2, 1]
+
+# mylist.sort(reverse=True)
+# print(mylist)
+
+# by default, sort function sorts a list in ascending order
+# to sort it in descending order, you can use reverse=True
+
+# mylist.reverse()
+# print(mylist)
+
+# reverse function reverses the list
+
+mylist = [7, 4.9, 12, 7, 4.9, 5, 12, 6, 123, 5, 123, 5, 4.9, 5]
+
+c = mylist.count(5)
+print(c)
+
+# the count function counts the occurences of a particular element in the list
