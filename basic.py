@@ -769,9 +769,31 @@ mylist = [13, 4.3, 9, 7.3, 10, 12]
 
 # reverse function reverses the list
 
-mylist = [7, 4.9, 12, 7, 4.9, 5, 12, 6, 123, 5, 123, 5, 4.9, 5]
+# mylist = [7, 4.9, 12, 7, 4.9, 5, 12, 6, 123, 5, 123, 5, 4.9, 5]
 
-c = mylist.count(5)
-print(c)
+# c = mylist.count(5)
+# print(c)
 
 # the count function counts the occurences of a particular element in the list
+
+# for i in range(2, 51):
+#       if i % 2 == 1:
+#           print(i)
+
+# for i in range(1, 11):
+#       print(i*13)
+
+# for i in range(1, 11):
+#      if i % 2 == 0:
+#          print(i)
+
+# for i in range(1, 11):
+#     if i % 2 == 1:
+        # print(i*3)
+
+num = int(input("Enter a number"))
+
+for i in range(2, num + 1):
+    if num % i == 0:
+        print("composite number")
+        break
