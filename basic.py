@@ -725,7 +725,7 @@ mylist = [13, 4.3, 9, 7.3, 10, 12]
 # mylist.pop(3)
 # print(mylist)
 
-# pop function deletes an element whose indes is provided
+# pop function deletes an element whose index is provided
 
 # mylist.pop()
 # print(mylist)
@@ -791,9 +791,30 @@ mylist = [13, 4.3, 9, 7.3, 10, 12]
 #     if i % 2 == 1:
         # print(i*3)
 
-num = int(input("Enter a number"))
+# num = int(input("Enter a number"))
 
-for i in range(2, num + 1):
-    if num % i == 0:
-        print("composite number")
-        break
+# for i in range(2, num + 1):
+#     if num % i == 0:
+#         print("composite number")
+#         break
+
+mylist = [23, 1, 92, 23.5, 43, 43.5, 23, 92, 23]
+
+mylist.insert(3, True)
+print(mylist)
+
+mylist.insert(6, False)
+print(mylist)
+
+mylist.pop(5)
+print(mylist)
+
+c = mylist.count(23)
+print(c)
+
+mylist.sort(reverse=True)
+print(mylist)
+
+mylist[3] = 49
+print(mylist)
+
