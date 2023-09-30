@@ -798,23 +798,96 @@ mylist = [13, 4.3, 9, 7.3, 10, 12]
 #         print("composite number")
 #         break
 
-mylist = [23, 1, 92, 23.5, 43, 43.5, 23, 92, 23]
+# mylist = [23, 1, 92, 23.5, 43, 43.5, 23, 92, 23]
 
-mylist.insert(3, True)
-print(mylist)
+# mylist.insert(3, True)
+# print(mylist)
 
-mylist.insert(6, False)
-print(mylist)
+# mylist.insert(6, False)
+# print(mylist)
 
-mylist.pop(5)
-print(mylist)
+# mylist.pop(5)
+# print(mylist)
 
-c = mylist.count(23)
-print(c)
+# c = mylist.count(23)
+# print(c)
 
-mylist.sort(reverse=True)
-print(mylist)
+# mylist.sort(reverse=True)
+# print(mylist)
 
-mylist[3] = 49
-print(mylist)
+# mylist[3] = 49
+# print(mylist)
 
+# operators
+
+# 1. Arithematic operators = "+, -, *, /. %, **, //"
+
+# print(3 + 2)
+
+# print(3 - 2)
+
+# print(3*2)
+
+# print(3/2)
+
+# % (module operator gives remainder)
+
+# print(3%2)
+
+# print(7%3)
+
+# print(9%5)
+
+# print(7%4)
+
+# print(10%6)
+
+# print(12%10)
+
+# print(15%3)
+
+# print(12%4)
+
+# print(3%4)
+
+# print(5%7)
+
+# print(25%50)
+
+# print(24%11)
+
+# print(11/5)
+# floating point answer
+
+# print(11//5)
+# integer answer
+
+# print(2**3)
+
+# print(2**2)
+
+# print(2**5)
+
+# ** gives you exponentiation
+# 2**3 -> 2^3
+
+# 2. assignment operators
+# =, +=, -=, *=, /=, **=, //, %=
+
+x = 5
+print(x)
+x += 2
+print(x)
+x -= 1
+print(x)
+x *= 3
+print(x)
+
+x /= 6
+print(x)
+x **= 2
+print(x)
+x //= 4
+print(x)
+x %= 3
+print(x)
