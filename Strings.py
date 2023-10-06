@@ -96,7 +96,7 @@ mystring = "Megan studies in first grade"
 
 # print(mystring[-5:-14:-2])
 
-mystr = "Football is a very famous game"
+# mystr = "Football is a very famous game"
 # print(mystr[2:-12:2])
 
 # print(mystr[15:30:2])
@@ -110,3 +110,26 @@ mystr = "Football is a very famous game"
 # print(mystr[-7:-26:-3])
 
 # print(mystr[23:4:-3])
+
+# String Functions
+
+mystring = "Meganlearnspython"
+
+# print(mystring.count("n"))
+
+# print(mystring.index("Urvashi"))
+
+# print(mystring.find("Urvashi"))
+
+# Index and find function both returns lowest index of the substring but index function returns value error 
+# and find function returns -1 when the substring is not found.
+
+# print(mystring.isalnum())
+
+# Isalnum checks if a string contains only alphabets or numbers and returns True but if it contains anything
+# other than that it contains False
+
+if mystring.isalnum():
+    print("It is alphamuneric")
+else:
+    print("It is not alphamuneric")

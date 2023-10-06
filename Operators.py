@@ -10,6 +10,14 @@
 
 # print(3/2)
 
+print(23+10)
+print(23-10)
+print(23*10)
+print(23/10)
+print(23%10)
+print(23**10)
+print(23//10)
+
 # % (module operator gives remainder)
 
 # print(3%2)
