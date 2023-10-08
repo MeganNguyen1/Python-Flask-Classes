@@ -174,3 +174,9 @@ print(23//10)
 # Membetship operator checks if an element is present in the lidt or not
 
 # Bitwise Operators
+# Decimal numbers
+# Which are made up of digits from 0 to 9
+
+# Binary numbers
+# Which are made up of digits made up of digits 0 and 1
+
