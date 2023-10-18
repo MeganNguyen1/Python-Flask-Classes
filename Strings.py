@@ -129,7 +129,7 @@ mystring = "Meganlearnspython"
 # Isalnum checks if a string contains only alphabets or numbers and returns True but if it contains anything
 # other than that it contains False
 
-if mystring.isalnum():
-    print("It is alphamuneric")
-else:
-    print("It is not alphamuneric")
+# if mystring.isalnum():
+#     print("It is alphamuneric")
+# else:
+#     print("It is not alphamuneric")

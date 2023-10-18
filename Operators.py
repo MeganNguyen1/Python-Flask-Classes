@@ -180,3 +180,20 @@ print(23//10)
 # Binary numbers
 # Which are made up of digits made up of digits 0 and 1
 
+# Binary to decimal
+
+# 10 -> 2
+
+# 11 -> 3
+
+# 111 -> 7
+
+# 101 -> 5
+
+# 110 -> 6
+
+# 100 -> 4
+
+# 010 -> 2
+
+# 011 -> 3
