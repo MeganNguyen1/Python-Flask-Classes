@@ -10,13 +10,13 @@
 
 # print(3/2)
 
-print(23+10)
-print(23-10)
-print(23*10)
-print(23/10)
-print(23%10)
-print(23**10)
-print(23//10)
+# print(23+10)
+# print(23-10)
+# print(23*10)
+# print(23/10)
+# print(23%10)
+# print(23**10)
+# print(23//10)
 
 # % (module operator gives remainder)
 
@@ -197,3 +197,68 @@ print(23//10)
 # 010 -> 2
 
 # 011 -> 3
+
+# Bitwise & Operators
+
+# 10 -> 2
+# print(2&3)
+
+# 001 -> 1
+# print(3&5)
+
+# 000 -> 0
+# print(4&3)
+
+# 10 -> 2
+# print(2&2)
+
+# 000 -> 0
+# print(4&1)
+
+# 0 -> 0
+# print(1&0)
+
+# 000 -> 0
+# print(2&5)
+
+
+# 2 or 3 -> 3
+# print(2 | 3)
+
+# 3 or 5 -> 7
+# print(3 | 5)
+
+# 4 or 3 -> 7
+# print(4 | 3)
+
+# 2 or 2 -> 2
+# print(2 | 2)
+
+# 4 or 1 -> 5
+# print(4 | 1)
+
+# 1 or 0 -> 1
+# print(1 | 0)
+
+# 2 or 5 -> 7
+# print(2 | 5)
+
+# Bitwise ~ Operator
+
+# ~ 3 -> 0
+# print(~3)
+
+# ~ 7 -> 0
+# print(~7)
+
+# ~ 4 -> 3
+# print(~4)
+
+# ~ 12 -> 3
+# print(~12)
+
+# ~ 9 -> 6
+# print(~9)
+
+# ~ 8 -> 7
+# print(~8)
