@@ -133,3 +133,31 @@ mystring = "Meganlearnspython"
 #     print("It is alphamuneric")
 # else:
 #     print("It is not alphamuneric")
+
+# mystr="I play foorball very often"
+
+# print(mystr.endswith("trn"))
+
+# print(mystr.startswith("play"))
+
+mystr = "    Megan    is  learning  python    "
+
+# print(mystr.strip())
+
+# Strip function removes the spaces from the start and end of the string.
+
+# x = mystr.replace("Megan", "Raymond")
+# print(x)
+
+# Replace function replaces a particular part of the string with something else.
+
+# print(mystr.isnumeric())
+
+# isnumeric function checks if all the string numeric or not
+
+# print(mystr.isalpha())
+
+# isalpha checks if string contains all the alphabets.
+# Spaces are not alphabets. They're symbols.
+
+print(mystr.count("n"))

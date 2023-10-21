@@ -262,3 +262,5 @@
 
 # ~ 8 -> 7
 # print(~8)
+
+# Left Shift Operator (<<)
