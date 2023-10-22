@@ -140,7 +140,6 @@ mystring = "Meganlearnspython"
 
 # print(mystr.startswith("play"))
 
-mystr = "    Megan    is  learning  python    "
 
 # print(mystr.strip())
 
@@ -160,4 +159,49 @@ mystr = "    Megan    is  learning  python    "
 # isalpha checks if string contains all the alphabets.
 # Spaces are not alphabets. They're symbols.
 
-print(mystr.count("n"))
+# print(mystr.count("n"))
+
+# mystr = "    Megan    is  LearNing  pYthoN    "
+
+# print(mystr.capitalize())
+
+# print(mystr.casefold())
+
+# Casefold function converts all the uppercase characters from the string into lowercase
+
+# mystr= "Banana apple mango"
+
+# print(mystr.center(50))
+
+# Center function puts the string in the center and fills the remaining places with spaces
+
+# mystr = "h\te\tl\tl\to"
+
+# print(mystr.expandtabs())
+
+# Expandtabs function converts all the \t present in the string into four spaces
+
+# mystr = "Hello, welcome to my world"
+# x = mystr.find("my world")
+# print(x)
+
+# Find function returns the starting index of the string which you pass in it
+
+# mystr = "4.2"
+# x = mystr.isdecimal()
+# print(x)
+
+# isdecimal function checks if the string contains decimal numbers in the place of all the characters
+
+# mystr = "for"
+# x = mystr.isidentifier()
+# print(x)
+
+# There is difference between a variable and an identifier that vaiable should follow all ther variable naming conventions
+# but identifier can conatin reserved keywords
+
+# mystr = "Hello there"
+# x = mystr.isprintable()
+# print(x)
+
+# isprintable function checks if a string prints exactly the same as it is written or not
