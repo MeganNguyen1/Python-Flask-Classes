@@ -22,25 +22,57 @@
 # 
 # mulitply(45,9)
 
-def greater(a,b):
-    if a > b:
-        print("a is greater")
-    else:
-        print("b is greater")
+# def greater(a,b):
+#     if a > b:
+#         print("a is greater")
+#     else:
+#         print("b is greater")
 
-greater(42,902)
+# greater(42,902)
     
-def greatest(a,b,c):
-    if a > b and a > c:
-        print("a is the greatest")
-    elif b > a and b > c:
-        print("b is the greatest")
-    else:
-        print("c is the greatest")
+# def greatest(a,b,c):
+#     if a > b and a > c:
+#         print("a is the greatest")
+#     elif b > a and b > c:
+#         print("b is the greatest")
+#     else:
+#         print("c is the greatest")
 
-greatest(102, 307, 457)
+# greatest(102, 307, 457)
 
-def information(name, age, place):
-    print(f"{name} is {age} years old and lives in {place}")
+# def information(name, age, place):
+#     print(f"{name} is {age} years old and lives in {place}")
 
-information("Andy", 12, "Texas")
+# information("Andy", 12, "Texas")
+
+# mylist = [1,5,3,11,4,2,12]
+# def sum(mylist):
+#     sum = 0
+#     for i in mylist:
+#         sum += i
+#     print(sum)
+
+# sum(mylist)
+
+# mylist = [1,5,3,11,4,2,12]
+# def mul(mylist):
+#     mul = 1
+#     for i in mylist:
+#         mul *= i
+#     print(mul)
+
+# mul(mylist)
+
+# num = 10
+# def range_num(num):
+#     if(num in range(9, 11)):
+#         print("in range")
+#     else:
+#         print("out of range")
+
+# range_num(num)
+
+if 10%2 == 0:
+    print("even")
+else:
+    print("odd")

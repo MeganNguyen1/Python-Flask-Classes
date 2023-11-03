@@ -200,8 +200,8 @@ mystring = "Meganlearnspython"
 # There is difference between a variable and an identifier that vaiable should follow all ther variable naming conventions
 # but identifier can conatin reserved keywords
 
-# mystr = "Hello there"
-# x = mystr.isprintable()
-# print(x)
+mystr = "Hello there"
+x = mystr.isprintable()
+print(x)
 
 # isprintable function checks if a string prints exactly the same as it is written or not

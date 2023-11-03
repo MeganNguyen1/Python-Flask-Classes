@@ -111,3 +111,9 @@
 #     if num % i == 0:
 #         print("composite number")
 #         break
+
+sum = 0
+mylist = [1,2,5,4]
+for i in mylist:
+        sum += i
+print(sum)
