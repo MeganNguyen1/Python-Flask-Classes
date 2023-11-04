@@ -72,7 +72,47 @@
 
 # range_num(num)
 
-if 10%2 == 0:
-    print("even")
-else:
-    print("odd")
+# num = 5
+# def even_or_odd(num):
+#     if num%2 == 0:
+#         print("even")
+#     else:
+#         print("odd")
+
+# even_or_odd(num)
+
+# num = 27
+# def divisbility_by_3(num):
+#     if num%3 == 1:
+#         print("it gives 1 as remainder")
+#     else:
+#         print("it doesn't give 1")
+
+# divisbility_by_3(num)
+
+# num = 3.9
+# def is_floating_point(num):
+#     if type(num) == float:
+#         print("it's float")
+#     else:
+#         print("it's integer")
+
+# is_floating_point(num)
+
+# mylist = ["apple", "kiwi", "banana", "grape", "orange", "tangerine", "lemon", "lime", "coconut", "tomato"]
+# def check_length(mylist):
+#     for i in mylist:
+#         if len(i) < 6:
+#             print(i)
+
+# check_length(mylist)
+
+# mystr = "I really do not like eating apples and bananas"
+# def checking_character_a(mystr):
+#     count = 0
+#     for i in mystr:
+#         if i == "a":
+#             count += 1
+#     print(count)
+
+# checking_character_a(mystr)

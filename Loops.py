@@ -112,8 +112,12 @@
 #         print("composite number")
 #         break
 
-sum = 0
-mylist = [1,2,5,4]
-for i in mylist:
-        sum += i
-print(sum)
+# sum = 0
+# mylist = [1,2,5,4]
+# for i in mylist:
+#         sum += i
+# print(sum)
+
+mystr = "I love kiwis"
+for i in mystr:
+        print(i)
