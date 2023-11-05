@@ -116,3 +116,33 @@
 #     print(count)
 
 # checking_character_a(mystr)
+
+# mystr = "I really do not like eating apples and bananas"
+# def checking_vowels(mystr):
+#     count = 0
+#     for i in mystr:
+#         if i == "a" or i == "e" or i == "i" or i == "u" or i == "o" or i == "A" or i == "E" or i == "I" or i == "U":
+#             count += 1
+#     print(count)
+
+# checking_vowels(mystr)
+
+# mystr = "I really do not like eating apples and bananas"
+# def reversing_string(mystr):
+#     print(mystr[::-1])
+
+# reversing_string(mystr)
+
+mylist = [12, 4, 5, 9, 15, 0, 98, 6]
+def even_or_odd_sum(mylist):
+    even_sum = 0
+    odd_sum = 0
+    for i in mylist:
+        if i%2 == 0:
+            even_sum += i 
+        else:
+            odd_sum += i
+    print(f"odd sum = {odd_sum}")
+    print(f"even sum = {even_sum}")
+
+even_or_odd_sum(mylist)
