@@ -133,16 +133,43 @@
 
 # reversing_string(mystr)
 
-mylist = [12, 4, 5, 9, 15, 0, 98, 6]
-def even_or_odd_sum(mylist):
-    even_sum = 0
-    odd_sum = 0
-    for i in mylist:
-        if i%2 == 0:
-            even_sum += i 
-        else:
-            odd_sum += i
-    print(f"odd sum = {odd_sum}")
-    print(f"even sum = {even_sum}")
+# mylist = [12, 4, 5, 9, 15, 0, 98, 6]
+# def even_or_odd_sum(mylist):
+#     even_sum = 0
+#     odd_sum = 0
+#     for i in mylist:
+#         if i%2 == 0:
+#             even_sum += i 
+#         else:
+#             odd_sum += i
+#     print(f"odd sum = {odd_sum}")
+#     print(f"even sum = {even_sum}")
 
-even_or_odd_sum(mylist)
+# even_or_odd_sum(mylist)
+
+# mystr = "I really do not like eating apples"
+# def first_and_last_letter(mystr):
+#     print(mystr[0])
+#     print(mystr[-1])
+
+# first_and_last_letter(mystr)
+
+# mystr = "I really do not like eating apples"
+# def reversed_string(mystr):
+#     print(mystr[::-1].capitalize())
+
+# reversed_string(mystr)
+
+# def ab_times_100(a, b):
+#    print(a/b*100)
+
+# ab_times_100(65,36)
+
+# mystr = "I really do not like eating apples and bananas"
+# def fith_index_s(mystr):
+#     if mystr[5] == "s":
+#         print("yes")
+#     else:
+#         print("no")
+
+# fith_index_s(mystr)
