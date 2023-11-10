@@ -173,3 +173,30 @@
 #         print("no")
 
 # fith_index_s(mystr)
+
+# mystr = "I do not like eating apples"
+# def length_less_than_6(mystr):
+#     if len(mystr) < 6:
+#         print("it is less than 6")
+#     else:
+#         print("it is greater than 6")
+
+# length_less_than_6(mystr)
+
+# mylist = ["apple", "kiwi", "banana", "grape", "orange", "tangerine", "lemon", "lime"]
+# def less_than_6(mylist):
+#     for i in mylist:
+#         if len(i) < 6:
+#             print(i)
+
+# less_than_6(mylist)
+
+mylist = [12, 6, 9, 23, 9, 3, 0, 89, 27, 54, 81, 1]
+def divisble_by_3(mylist):
+    sum = 0
+    for i in mylist:
+        if i % 3 == 0:
+            sum += i 
+    print(sum)
+
+divisble_by_3(mylist)
