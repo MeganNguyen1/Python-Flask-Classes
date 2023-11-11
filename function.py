@@ -191,12 +191,42 @@
 
 # less_than_6(mylist)
 
-mylist = [12, 6, 9, 23, 9, 3, 0, 89, 27, 54, 81, 1]
-def divisble_by_3(mylist):
+# mylist = [12, 6, 9, 23, 9, 3, 0, 89, 27, 54, 81, 1]
+# def divisble_by_3(mylist):
+#     sum = 0
+#     for i in mylist:
+#         if i % 3 == 0:
+#             sum += i 
+#     print(sum)
+
+# divisble_by_3(mylist)
+# num = 3
+# def square(num):
+#     print(num**2)
+
+# square(num)
+
+# mylist = [9, 3, 6, 4, 12, 19, 20, 34, 7, 56]
+# def multiplication(mylist):
+#     product = 1
+#     for i in mylist:
+#         product *= i
+#     print(product)
+
+# multiplication(mylist)
+
+# mystr = "hello"
+# num = 5
+# def repeat(mystr, num):
+#     print(mystr * num)
+
+# repeat(mystr, num)
+
+mylist = [9, 3, 6, 4, 12, 19, 20, 34, 7, 56]
+def sum_of_squares(mylist):
     sum = 0
     for i in mylist:
-        if i % 3 == 0:
-            sum += i 
+        sum += (i**2)
     print(sum)
 
-divisble_by_3(mylist)
+sum_of_squares(mylist)
