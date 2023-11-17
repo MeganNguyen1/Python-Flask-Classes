@@ -64,7 +64,42 @@ myset1 = {2, 4, 5, 7, 7, 2}
 myset1 = {1, 4, 5, 1, 1, 2, 4, 6, 7}
 myset2 = {3, 4, 4, 5, 9, 10, 3}
 
-myset1.intersection_update(myset2)
-print(myset1)
+# myset1.intersection_update(myset2)
+# print(myset1)
 
 # intersection_update function store all the common elements from set1 and set2
+
+# myset1.update(myset2)
+# print(myset1)
+
+# update function takes all the elements from set2 and put it inside set1 and combine them
+
+# intersection function takes all the common elements from sets and put it inside a new set
+
+# myset3= myset1.intersection(myset2)
+# print(myset3)
+
+# symmetric_difference_update function takes the uncommon elements from set1 and set2 and store it inside set1
+
+# myset1.symmetric_difference_update(myset2)
+# print(myset1)
+
+# symmetric difference function takes all uncommon elements from sets and store it in a new set
+
+# myset3 = myset1.symmetric_difference(myset2)
+# print(myset3)
+
+# isdisjoint function checks if both of the sets has nothing in common or not
+
+# print(myset1.isdisjoint(myset2))
+
+# myset1 = {6, 8, 9, 19, 10, 8, 7, 5}
+# myset2 = {6, 8, 9, 4}
+
+# print(myset2.issubset(myset1))
+
+# issubset function checks if first set is a subset of second
+
+# print(myset1.issuperset(myset2))
+
+# superset function checks if the first set contains all the elemenets of second set inside it
