@@ -171,7 +171,7 @@
 # print(11 in mylist)
 # print(16 not in mylist)
 
-# Membetship operator checks if an element is present in the lidt or not
+# Membership operator checks if an element is present in the list or not
 
 # Bitwise Operators
 # Decimal numbers
