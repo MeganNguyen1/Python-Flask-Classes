@@ -205,3 +205,11 @@ mystring = "Meganlearnspython"
 # print(x)
 
 # isprintable function checks if a string prints exactly the same as it is written or not
+
+mystr = "Python is a programing language"
+
+words = mystr.split("is")
+print(words)
+
+mystr = mystr.lower()
+print(mystr)
