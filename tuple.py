@@ -47,3 +47,11 @@ mytuple = (9, "lily", "plum", 3, 6, "blue")
 #     print(i)
 
 print(mytuple[1:3])
+
+# You cannot update tuple
+
+
+# Backing and Unpacking of Tuple
+
+mytuple = (3, "cucumber", 9)
+
