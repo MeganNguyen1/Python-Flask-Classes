@@ -11,8 +11,8 @@ def add_task(todo_list, task):
     Task is a new todo which will be added to the todo_list
     Append function of the list is used to add a new element of the end of list
     '''
-    todo_list,append(task)
-    print(f"Task{task} added to the to do list")
+    todo_list.append(task)
+    print(f"Task {task} added to the to do list")
 
 def view_tasks(todo_list):
     '''
@@ -26,7 +26,7 @@ def view_tasks(todo_list):
     else:
         print("\n Current Tasks")
 
-        for index, task in emunerate(todo_list, start=1):
+        for index, task in enumerate(todo_list, start=1):
             print(f"{index}, {task}")
 
 def mark_completed(todo_list, task_index):
@@ -36,7 +36,34 @@ def mark_completed(todo_list, task_index):
     take the index of the list element which we need to delete
     '''
     if 1<= task_index <= len(todo_list):
-        Completed_task todo_list. pop(task_index -1)
-        print(f"Task {completed_task} marked as completed")
+        Completed_task = todo_list.pop(task_index -1)
+        print(f"Task {Completed_task} marked as completed")
     else:
         print("Invalid task index")
+
+def todo_list_app():
+    todo_list = []
+    while True:
+        # While true is an infinite looop which will ask for the user choice again and again and if you want to stop the while loop then you need 
+        # a break statement so we all using break statement on 'choice = 4'
+        show_menu()
+        choice = input("Enter your choice(1-4): ")
+        if choice == "1":
+            task= input("Enter the task: ")
+            add_task(todo_list, task)
+
+        elif choice == '2':
+            view_tasks(todo_list)
+
+        elif choice == '3':
+            task_index = int(input("Enter the task index to mark as completed: "))
+            mark_completed(todo_list, task_index)
+
+        elif choice == '4':
+            print("Quitting todo list app! Goodbye!")
+            break
+
+        else:
+            print("Invalid choice. Please enter a number between 1 and 4.")
+
+todo_list_app()
