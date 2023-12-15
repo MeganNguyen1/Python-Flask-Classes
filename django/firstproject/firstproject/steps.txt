@@ -1,0 +1,11 @@
+run these commands in terminal of vscode: 
+1. python -m venv venv 
+2. venv\Scripts\activate
+3. pip install django
+4. django-admin startproject projectname
+cd projectname
+5. python manage.py makemigrations
+6. python manage.py migrate
+7. python manage.py createsuperuser
+8. python manage.py runserver
+then click on the link and see the website!
