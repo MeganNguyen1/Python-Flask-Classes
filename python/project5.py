@@ -63,8 +63,45 @@ my_turtle.end_fill()
 #     my_turtle.right(120)
 
 # Circle
+# my_turtle = turtle.Turtle()
+# my_turtle.speed(7)
+# for i in range(360):
+#     my_turtle.forward(1)
+#     my_turtle.right(1)
+
+# Rectangle
+# my_turtle = turtle.Turtle()
+# my_turtle.speed(2)
+# for i in range(2):
+#     my_turtle.forward(250)
+#     my_turtle.right(90)
+#     my_turtle.forward(100)
+#     my_turtle.right(90)
+
+# hexagon 
+# my_turtle = turtle.Turtle()
+# my_turtle.speed(2)
+# for i in range(6):
+#     my_turtle.forward(100)
+#     my_turtle.right(60)
+    
+# Pentagon
+# my_turtle = turtle.Turtle()
+# my_turtle.speed(2)
+# for i in range(5):
+#     my_turtle.forward(100)
+#     my_turtle.right(72)
+
+# Heptagon
+# my_turtle = turtle.Turtle()
+# my_turtle.speed(2)
+# for i in range(7):
+#     my_turtle.forward(100)
+#     my_turtle.right(360/7)
+
+# Octagon
 my_turtle = turtle.Turtle()
-my_turtle.speed(7)
-for i in range(360):
-    my_turtle.forward(1)
-    my_turtle.right(1)
+my_turtle.speed(2)
+for i in range(8):
+    my_turtle.forward(100)
+    my_turtle.right(360/8)
