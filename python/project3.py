@@ -1,4 +1,4 @@
-print("Here are the food choices you have\n1. pizza\n2. Burger\n3. Salad\n4. Ice cream\n5. French Fries\n6. Brownie\n7. Sandwich\n8. Pasta\n9. Hotdog\n10. Soup")
+3245hprint("Here are the food choices you have\n1. pizza\n2. Burger\n3. Salad\n4. Ice cream\n5. French Fries\n6. Brownie\n7. Sandwich\n8. Pasta\n9. Hotdog\n10. Soup")
 choice = input("What do you to have to eat?: ")
 
 if choice == "1":
