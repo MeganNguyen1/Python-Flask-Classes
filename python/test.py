@@ -48,7 +48,7 @@ Problem: Write a Python program to calculate library fines. The fine is based on
 If a book is overdue by 1-5 days, the fine is $2 per day. 
 If it is overdue by 6-10 days, the fine is $5 per day. 
 For more than 10 days, the fine is $10 per day. 
-However, if the user is a member of the library, the fine rates are halved.
+However, if the user is a member of the library, the fine rates are halved.          
 Input: Number of days overdue and a Boolean indicating membership status.
 """
 
