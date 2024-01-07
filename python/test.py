@@ -64,3 +64,33 @@ else:
 if membership == True:
     cost = cost / 2
 print(cost)
+
+# 1.
+print("Hello, Python")
+
+# 2.
+age = 9
+print(f"I am {age} years old.")
+
+# 3.
+print(5 + 3)
+
+# 4.
+color = input("What is your favorite color?: ")
+print(f"Your favorite color is {color}.")
+
+# 5.
+first_name = "Megan"
+last_name = "Nguyen"
+print(f"{first_name} {last_name}")
+
+# 6.
+number = 4
+if number > 5:
+    print("Yes, it is greater!")
+else:
+    print("No, it is less.")
+
+# 7.
+for i in range(1, 6):
+    print(i)
