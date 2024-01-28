@@ -52,45 +52,59 @@ However, if the user is a member of the library, the fine rates are halved.
 Input: Number of days overdue and a Boolean indicating membership status.
 """
 
-num_of_days = 3
-membership = False
-cost = 0
-if 1 <= num_of_days < 5:
-    cost = 2
-elif 6 <= num_of_days < 10:
-    cost = 5
-else:
-    cost = 10
-if membership == True:
-    cost = cost / 2
-print(cost)
+# num_of_days = 3
+# membership = False
+# cost = 0
+# if 1 <= num_of_days < 5:
+#     cost = 2
+# elif 6 <= num_of_days < 10:
+#     cost = 5
+# else:
+#     cost = 10
+# if membership == True:
+#     cost = cost / 2
+# print(cost)
 
 # 1.
-print("Hello, Python")
+# print("Hello, Python")
 
 # 2.
-age = 9
-print(f"I am {age} years old.")
+# age = 9
+# print(f"I am {age} years old.")
 
 # 3.
-print(5 + 3)
+# print(5 + 3)
 
 # 4.
-color = input("What is your favorite color?: ")
-print(f"Your favorite color is {color}.")
+# color = input("What is your favorite color?: ")
+# print(f"Your favorite color is {color}.")
 
-# 5.
-first_name = "Megan"
-last_name = "Nguyen"
-print(f"{first_name} {last_name}")
+# # 5.
+# first_name = "Megan"
+# last_name = "Nguyen"
+# print(f"{first_name} {last_name}")
 
 # 6.
-number = 4
-if number > 5:
-    print("Yes, it is greater!")
-else:
-    print("No, it is less.")
+# number = 4
+# if number > 5:
+#     print("Yes, it is greater!")
+# else:
+#     print("No, it is less.")
 
 # 7.
-for i in range(1, 6):
-    print(i)
+# for i in range(1, 6):
+#     print(i)
+
+
+name = "Megan"
+print(name)
+
+apples = 5 - 2
+print(apples)
+
+
+fruits = ["strawberry", "orange", "grape"]
+print(fruits[1])
+
+
+
